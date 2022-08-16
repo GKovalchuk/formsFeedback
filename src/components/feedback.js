@@ -16,8 +16,7 @@ function Feedback() {
 
 	const handleSubmit = evt => {
 		evt.preventDefault();
-		console.log(evt.type);
-		console.dir(evt.target);
+		console.log(form.name, form.score, form.agreement);
 	}
 
 	return (
